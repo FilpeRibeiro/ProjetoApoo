@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./img/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: bisque;
+    width: 100%;
+    margin-bottom: 10px;
+}
+main{
+    display: block;
+    margin: 10px 0;
+    padding: 30px;
+}
+#inicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+#botao, #date{
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 18px;
+}
+#recebe{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#titulo{
+    color: bisque;
+    text-align: center;
+}
+#texto{
+    margin: 10px 0;
+    background-color: bisque;
+    border-radius: 15px;
+    font-size: 26px;
+    padding: 5px;
+    text-align: center;
+}
+#imagen{
+    width: fit-content;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    color: bisque;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+
